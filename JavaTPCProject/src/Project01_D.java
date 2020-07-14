@@ -10,23 +10,6 @@ import org.json.JSONTokener;
 
 public class Project01_D {
 
-	class Typetester {
-	    void printType(byte x) {
-	        System.out.println(x + " is an byte");
-	    }
-	    void printType(int x) {
-	        System.out.println(x + " is an int");
-	    }
-	    void printType(float x) {
-	        System.out.println(x + " is an float");
-	    }
-	    void printType(double x) {
-	        System.out.println(x + " is an double");
-	    }
-	    void printType(char x) {
-	        System.out.println(x + " is an char");
-	    }
-	}
 	public static void main(String[] args) {
 		
 		String apiURL = "https://naveropenapi.apigw.ntruss.com/map-geocode/v2/geocode?query=";
@@ -76,13 +59,11 @@ public class Project01_D {
 				System.out.println("지번 : " + temp.get("jibunAddress"));
 				System.out.println("경도 : " + temp.get("x"));
 				System.out.println("위도 : " + temp.get("y"));
+				
 			}
 			
 		}catch(Exception e) {
 			e.printStackTrace();
 		}
-		
-		
-		
 	}
 }
