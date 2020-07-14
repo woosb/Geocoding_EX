@@ -12,7 +12,7 @@ import org.json.JSONArray;
 import org.json.JSONObject;
 import org.json.JSONTokener;
 
-public class Project01__E {
+public class Project01_E {
 	//지도 이미지 생성 메서드
 	public static void map_service(String point_x, String point_y, String address) {
 		String URL_STATICMAP = 	"https://naveropenapi.apigw.ntruss.com/map-static/v2/raster?";
