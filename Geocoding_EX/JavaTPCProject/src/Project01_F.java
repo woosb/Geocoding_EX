@@ -14,7 +14,6 @@ public class Project01_F {
 	JLabel imageLabel;
 	
 	public void initGUI(){
-		
 		JFrame frm = new JFrame("Map View");
 		frm.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		Container c = frm.getContentPane();

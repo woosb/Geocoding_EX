@@ -59,7 +59,6 @@ public class Project01_D {
 				System.out.println("지번 : " + temp.get("jibunAddress"));
 				System.out.println("경도 : " + temp.get("x"));
 				System.out.println("위도 : " + temp.get("y"));
-				
 			}
 			
 		}catch(Exception e) {
